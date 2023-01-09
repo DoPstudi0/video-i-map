@@ -1,0 +1,156 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1000px) {
+    
+    .gallary .gallary_box {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 12px;
+    }
+
+    .gallary_photo img {
+        width: 100%;
+    }
+}
+
+@media (max-width:992px) {
+    .gallary .gallary_box {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        gap: 12px;
+    }
+
+    .gallary_photo img {
+        width: 100%;
+    }
+}
+
+@media (max-width:768px) {
+    .gallary .gallary_box {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 12px;
+    }
+
+    .gallary_photo img {
+        width: 100%;
+    }
+}
+
+@media (max-width:576px) {
+    .gallary .gallary_box {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        gap: 12px;
+    }
+
+    .gallary_photo img {
+        width: 250px;
+    }
+
+    .gallary .gallary_head h1 {
+        font-size: 40px;
+    }
+
+    .gallary .gallary_head p {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:448px) {}
+
+@media (max-width:360px) {
+
+    .header_box .header {
+        height: 50px;
+    }
+
+    .header_box .header .burger {
+        display: flex;
+    }
+
+    .header_box .header .header_left a {
+        display: none;
+    }
+
+    .header_box .header img {
+        width: 150px;
+    }
+
+    .header_box .header a {
+        border: 2px solid rgba(0, 0, 0, 0.698);
+        padding: 2px;
+    }
+
+    .promo .promo_box .glav_text h1 {
+        font-size: 35px;
+    }
+
+    .promo .promo_box {
+        padding: 130px 0px;
+    }
+
+    .gallary {
+        margin-top: 100px;
+    }
+
+    .gallary .gallary_text_box {
+        gap: 30px;
+    }
+
+    .gallary .gallary_box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 12px;
+    }
+
+    .gallary_photo img {
+        width: 100%;
+    }
+
+    .gallary .gallary_head h1 {
+        font-size: 30px;
+    }
+
+    .gallary .gallary_head p {
+        font-size: 15px;
+    }
+
+    .about .about_text_box .about_head h1 {
+        font-size: 30px;
+    }
+
+    .about .about_text_box .about_head p {
+        font-size: 13px;
+    }
+
+    .about .about_photo {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .about .about_photo .about_text {
+        gap: 17px;
+    }
+
+    .about .about_photo .about_text h4 {
+        font-size: 20px;
+    }
+
+    .about .about_photo .abaut_photo_one {
+        gap: 10px;
+    }
+
+    .about .about_head {
+        gap: 17px;
+    }
+
+    .about .about_text_box {
+        gap: 17px;
+    }
+
+
+
+}
